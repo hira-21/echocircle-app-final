@@ -1,0 +1,27 @@
+# Node
+node_modules/
+dist/
+.next/
+out/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Audio uploads (optional)
+public/audio/*.wav
+public/audio/*.mp3
