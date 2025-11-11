@@ -1,3 +1,4 @@
+"use client";
 import EchoFeed from "../components/EchoFeed";
 
 export default function Home() {
