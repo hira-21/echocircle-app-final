@@ -1,3 +1,4 @@
+"use client";
 import EchoReplyCard from "./EchoReplyCard";
 
 const echoes = [
