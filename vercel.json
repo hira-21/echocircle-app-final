@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/echo/:id", "destination": "/echo/[id]" }
+  ]
+}
