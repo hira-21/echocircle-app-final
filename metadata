@@ -1,0 +1,4 @@
+export const metadata = {
+  title: "EchoCircle",
+  description: "Your voice, your vibe. A rhythm-aware voice journaling platform."
+};
