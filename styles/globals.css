@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom font and transitions */
+body {
+  @apply font-sans text-gray-800 bg-gradient-to-br from-pink-50 to-indigo-50;
+}
+
+button {
+  @apply transition duration-200 ease-in-out;
+}
+
+audio {
+  @apply w-full mt-2;
+}
+
+/* Mood-specific background helpers */
+.bg-chill {
+  background-color: #FDE68A;
+}
+
+.bg-reflective {
+  background-color: #FCA5A5;
+}
+
+.bg-hype {
+  background-color: #5EEAD4;
+}
