@@ -1,3 +1,4 @@
+"use client";
 export default function EchoMap() {
   const cities = ["Seattle", "Azalice", "New York"];
   const moods = ["Chill", "Funny", "Deep"];
