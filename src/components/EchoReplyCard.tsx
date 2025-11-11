@@ -1,3 +1,4 @@
+"use client";
 export default function EchoReplyCard({ user, title, mood }) {
   return (
     <div className={`p-4 rounded-lg shadow-md bg-${mood}`}>
