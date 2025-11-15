@@ -54,4 +54,4 @@ jobs:
         with:
           name: EchoCircle-AAB
           path: app/build/
-
+ls -R app/build/outputs/bundle/release/
