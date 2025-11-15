@@ -1,7 +1,8 @@
-plugins {
-    id("com.android.application")
-    kotlin("android")
-}
+android {
+    buildTypes {
+        release {
+            isMinifyEnabled = false
+            signingConfig = null  // allows unsigned release
 
 android {
     namespace = "com.example.echocircle" // replace with your package name
