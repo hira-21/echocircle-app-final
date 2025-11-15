@@ -35,6 +35,6 @@ else
     [ -x "$JAVA" ] || die "ERROR: JAVA_HOME is not set and no 'java' command could be found in your PATH."
 fi
 
-CLASSPATH="$APP_HOME/gradle/wrapper/gradle-wrapper.jar"
 
-exec "$JAVA" $DEFAULT_JVM_OPTS -classpath "$CLASSPATH" org.gradle.wrapper.GradleWrapperMain "$@"
+
+
