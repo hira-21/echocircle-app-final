@@ -44,15 +44,11 @@ jobs:
       - name: Build Release AAB
         run: ./gradlew bundleRelease --stacktrace
 
-      # 7️⃣ Debug: List output folder to verify artifact exists
-      - name: List output folder
-        run: ls -R app/build/outputs/bundle/release/
-
-      # 8️⃣ Upload AAB Artifact
+        # 8️⃣ Upload AAB Artifact
       - name: Upload AAB Artifact
         uses: actions/upload-artifact@v4
         with:
           name: EchoCircle-AAB
           path: app/build/
-ls -R app/build/outputs/
+
       
