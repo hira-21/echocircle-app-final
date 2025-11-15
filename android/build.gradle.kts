@@ -2,10 +2,10 @@ android {
     ...
     signingConfigs {
         create("release") {
-            keyAlias = System.getenv("KEY_ALIAS")
-            keyPassword = System.getenv("KEY_PASSWORD")
+            keyAlias = System.getenv("echocircle_21")
+            keyPassword = System.getenv("flustered21@HS")
             storeFile = file(System.getenv("KEYSTORE_FILE") ?: "keystore.jks")
-            storePassword = System.getenv("KEYSTORE_PASSWORD")
+            storePassword = System.getenv("flustered21@HS")
         }
     }
 
